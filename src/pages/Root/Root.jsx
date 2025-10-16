@@ -3,6 +3,8 @@ import { Outlet } from 'react-router';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/Header/NavBar/NavBar';
 import Banner from '../../components/Banner/Banner';
+import Book from '../Book/Book';
+import Books from '../Books/Books';
 
 const Root = () => {
     return (
@@ -10,6 +12,7 @@ const Root = () => {
             <NavBar></NavBar>
             <Outlet>
                 <Banner></Banner>
+                <Books></Books>
             </Outlet>
             <Footer></Footer>
         </div>
