@@ -6,6 +6,7 @@ import { getStoredBook } from "../../utility/utility";
 import { useLoaderData } from "react-router";
 import Book from "../Book/Book";
 
+
 const ReadList = () => {
   const data = useLoaderData();
 

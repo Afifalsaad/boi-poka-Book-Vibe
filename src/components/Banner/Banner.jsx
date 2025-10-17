@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="flex gap-10 items-center bg-[#1313130d] justify-center py-20 rounded-xl">
+    <div className="flex gap-10 items-center bg-[#1313130d] justify-center py-20 rounded-xl w-full max-w-[1200px] mx-auto">
       <div>
         <h1 className="playfair-font text-5xl font-semibold">
           Books to freshen up <br /> your bookshelf
@@ -12,7 +12,7 @@ const Banner = () => {
         </button>
       </div>
       <div>
-        <img src="../../../pngwing 1.png" alt="" />
+        <img src='/pngwing1.png' alt="" />
       </div>
     </div>
   );
